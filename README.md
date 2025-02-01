@@ -57,6 +57,97 @@ Cloud NGFW Enterprise is a fully distributed firewall solution offering advanced
 
   ![image](https://github.com/user-attachments/assets/8f76f78a-e4e7-4cd5-8b1f-71a6856923e4)
 
+<h2>Prepare for Deployment</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prepare for Deployment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #4a4a4a;
+        }
+        .important {
+            background-color: #f9f9ff;
+            border-left: 5px solid #6a1b9a;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 10px;
+            overflow-x: auto;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prepare for Deployment</h1>
+
+    <div class="important">
+        <strong>Important:</strong> This tutorial assumes you are using Cloud Shell to provision all resources.
+    </div>
+
+    <ol>
+        <li>
+            <p>Open <a href="https://shell.cloud.google.com/" target="_blank">Google Cloud Shell</a> and enable the required APIs:</p>
+            <pre>
+gcloud services enable compute.googleapis.com
+gcloud services enable networksecurity.googleapis.com
+gcloud services enable firewallinsights.googleapis.com
+            </pre>
+        </li>
+        <li>
+            <p>Set environment variables for your deployment project and billing project:</p>
+            <pre>
+export PROJECT_ID=YOUR_PROJECT_ID
+export BILLING_ID=YOUR_BILLING_PROJECT_ID
+            </pre>
+        </li>
+        <li>
+            <p>Set environment variables for your organization ID, deployment region, zone, and naming prefix:</p>
+            <pre>
+export ORG_ID=$(gcloud projects describe $PROJECT_ID --format=json | jq -r '.parent.id')
+export REGION=us-central1
+export ZONE=us-central1-a
+export PREFIX=panw
+            </pre>
+        </li>
+        <li>
+            <p>Select a deployment option. Both options deploy identical environments:</p>
+            <ul>
+                <li><strong>Option 1:</strong> <a href="#">Deploy using Terraform</a></li>
+                <ul>
+                    <li>All of the cloud resources required for the tutorial are deployed using a single Terraform plan.</li>
+                </ul>
+                <li><strong>Option 2:</strong> <a href="#">Deploy using gcloud</a></li>
+                <ul>
+                    <li>Each cloud resource is deployed individually using <code>gcloud</code>.</li>
+                </ul>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
+
+
 
 
 
