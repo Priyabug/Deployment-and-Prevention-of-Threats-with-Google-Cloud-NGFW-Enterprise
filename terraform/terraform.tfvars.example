@@ -1,0 +1,6 @@
+org_id          = "null"
+project_id      = "storied-channel-376018"
+billing_project = "01793D-6BD1D6-F3BF1A"
+prefix          = "panw"
+region          = "us-central1"
+zone            = "us-central1-a"
