@@ -57,47 +57,6 @@ Cloud NGFW Enterprise is a fully distributed firewall solution offering advanced
 
   ![image](https://github.com/user-attachments/assets/8f76f78a-e4e7-4cd5-8b1f-71a6856923e4)
 
-<h2>Prepare for Deployment</h2>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prepare for Deployment</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
-        h1, h2 {
-            color: #4a4a4a;
-        }
-        .important {
-            background-color: #f9f9ff;
-            border-left: 5px solid #6a1b9a;
-            padding: 10px;
-            margin-bottom: 20px;
-        }
-        pre {
-            background-color: #f4f4f4;
-            border: 1px solid #ddd;
-            padding: 10px;
-            overflow-x: auto;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        ul {
-            margin-left: 20px;
-        }
-    </style>
-</head>
 <body>
     <h1>Prepare for Deployment</h1>
 
