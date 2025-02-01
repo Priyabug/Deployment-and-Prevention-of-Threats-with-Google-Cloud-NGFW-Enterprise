@@ -57,13 +57,7 @@ Cloud NGFW Enterprise is a fully distributed firewall solution offering advanced
 
   ![image](https://github.com/user-attachments/assets/8f76f78a-e4e7-4cd5-8b1f-71a6856923e4)
 
-<body>
     <h2>Prepare for Deployment</h2>
-
-    <div class="important">
-        <strong>Important:</strong> This tutorial assumes you are using Cloud Shell to provision all resources.
-    </div>
-
     <ol>
         <li>
             <p>Open <a href="https://shell.cloud.google.com/" target="_blank">Google Cloud Shell</a> and enable the required APIs:</p>
