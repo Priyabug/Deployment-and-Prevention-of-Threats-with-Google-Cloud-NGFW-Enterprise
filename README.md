@@ -12,40 +12,7 @@ Cloud NGFW Enterprise is a fully distributed firewall solution offering advanced
 - <b>A Google Cloud project to host the deployment.</b>
 - <b>A Google Cloud billing project.</b>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IAM Roles</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
+
     <h2>IAM Roles</h2>
     <table>
         <thead>
@@ -79,15 +46,13 @@ Cloud NGFW Enterprise is a fully distributed firewall solution offering advanced
         </tbody>
     </table>
 
-    <h2>For more information, please see:</h2> 
-    <ul>
-        <li><a href="#" target="_blank">IAM Roles - Firewall Endpoints</a></li>
-        <li><a href="#" target="_blank">IAM Roles - Firewall Endpoint Associations</a></li>
-        <li><a href="#" target="_blank">IAM Roles - Security Profiles</a></li>
-        <li><a href="#" target="_blank">IAM Roles - Global Network Firewall Policies</a></li>
-    </ul>
-</body>
-</html>
+ <h2>For more information, please see:</h2>
+
+- <b>IAM Roles - Firewall Endpoints</b>
+- <b>IAM Roles - Firewall Endpoint Associations</b>
+- <b>IAM Roles - Security Profiles</b>
+- <b>IAM Roles - Global Network Firewall Policies</b>
+  
 
 
 
