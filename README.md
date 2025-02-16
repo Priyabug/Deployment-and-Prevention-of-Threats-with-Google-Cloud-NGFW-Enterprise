@@ -1,4 +1,4 @@
-t<h1>Deployment and Prevention of Threats with Google Cloud NGFW Enterprise</h1>
+<h1>Deployment and Prevention of Threats with Google Cloud NGFW Enterprise</h1>
 
 <h2>Description</h2>
 Deploy and prevent threats with Google Cloud NGFW Enterprise, a native Google Cloud service powered by Palo Alto Networks Threat Prevention technologies. This solution combines the scalability and flexibility of Google Cloud with the advanced security capabilities of Palo Alto Networks, providing deep traffic inspection, real-time threat detection, and automated protection against evolving cyber threats, all within your cloud environment.
