@@ -100,6 +100,49 @@ export PREFIX=panw
 </body>
 </html>
 
+<br>
+
+## Deploy using Terraform
+
+1. In Cloud Shell, clone the repository and change directories to `/terraform`. 
+
+    ```
+    git clone https://github.com/PaloAltoNetworks/google-cloud-ngfw-tutorial
+    cd google-cloud-ngfw-tutorial/terraform
+    ```
+
+2. Create a `terraform.tfvars` file.
+
+    ```
+    cp terraform.tfvars.example terraform.tfvars
+    ```
+
+3. Edit the `terraform.tfvars` file and set values for the following variables.
+
+    | Key               | Value                                                   |
+    | ----------------- | ------------------------------------------------------- |
+    | `org_id`          | The organization ID of your Google Cloud organization.  |
+    | `project_id`      | The deployment project ID.                              |
+    | `billing_project` | The billing project for your Google Cloud organization. |
+    | `region`          | The region for the deployment.                          |
+    | `zone`            | The zone with `region` for the cloud resources.         |
+    | `prefix`          | A unique string to prepend to the created resources.    |
+
+
+2.  Initialize and apply the Terraform plan.
+
+    ```
+    terraform init
+    terraform apply
+    ```
+
+    Enter `yes` to create the resources. 
+
+4. Once the Terraform plan completes, proceed to [Prevent Threats with Cloud NGFW](#prevent-threats-with-cloud-ngfw).
+
+<br>
+
+
 
 
 
