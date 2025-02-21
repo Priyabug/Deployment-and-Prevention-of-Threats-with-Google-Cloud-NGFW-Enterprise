@@ -8,9 +8,9 @@ Cloud NGFW Enterprise is a fully distributed firewall solution offering advanced
 
  <h2>Languages and Utilities Used</h2>
 
-- <b>Access to Google Cloud Shell, or a local machine with a Terraform or gcloud installation.
-- <b>A Google Cloud project to host the deployment.
-- <b>A Google Cloud billing project.
+- <b>Access to Google Cloud Shell, or a local machine with a Terraform or gcloud installation.</b>
+- <b>A Google Cloud project to host the deployment.</b>
+- <b>A Google Cloud billing project.</b>
 
 
     <h2>IAM Roles</h2>
