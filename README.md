@@ -55,3 +55,12 @@ For more information, please see:
 gcloud services enable compute.googleapis.com
 gcloud services enable networksecurity.googleapis.com
 gcloud services enable firewallinsights.googleapis.com
+
+### 🌱 Step 2: Set Environment Variables for Your Deployment
+
+Set up the environment variables for your **deployment project** and **billing project**:
+
+```bash
+export PROJECT_ID=YOUR_PROJECT_ID
+export BILLING_ID=YOUR_BILLING_PROJECT_ID
+
