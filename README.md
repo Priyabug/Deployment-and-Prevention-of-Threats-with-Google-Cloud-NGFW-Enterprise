@@ -53,15 +53,19 @@ For more information, please see:
 
 Enable the required APIs, retrieve the deployment files, and configure the environment variables.
 
-# 🚀 Deployment Guide
+# 🚀 Deployment Guide  
 
-## 1️⃣ Open Google Cloud Shell and Enable Required APIs  
+1. **Open Google Cloud Shell**  
+   Launch Cloud Shell and enable the required APIs.
 
-Click on **[Google Cloud Shell](https://shell.cloud.google.com/)** 🖥️ and run the following commands to enable the required APIs:
+   ```bash
+   gcloud services enable compute.googleapis.com
+   gcloud services enable networksecurity.googleapis.com
+   gcloud services enable firewallinsights.googleapis.com
 
-```bash
-gcloud services enable compute.googleapis.com
-gcloud services enable networksecurity.googleapis.com
-gcloud services enable firewallinsights.googleapis.com
+      2. **Set environment variables for your deployment project and billing project.**
 
+   ```bash
+   export PROJECT_ID=YOUR_PROJECT_ID
+   export BILLING_ID=YOUR_BILLING_PROJECT_ID
 
