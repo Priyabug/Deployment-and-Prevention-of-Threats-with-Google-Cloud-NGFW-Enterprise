@@ -55,26 +55,80 @@ Enable the required APIs, retrieve the deployment files, and configure the envir
 
 # 🚀 Deployment Guide  
 
-1. **Open Google Cloud Shell**  
-   Launch Cloud Shell and enable the required APIs.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Shell Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 1.1em;
+        }
+        .section-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
 
-   ```bash
-   gcloud services enable compute.googleapis.com
-   gcloud services enable networksecurity.googleapis.com
-   gcloud services enable firewallinsights.googleapis.com
+    <h1>Cloud Shell Tutorial</h1>
 
-   
+    <p><strong>Open Google Cloud Shell</strong> and enable the required APIs:</p>
 
-      2. **Set environment variables for your deployment project and billing project.**
+    <pre><code>gcloud services enable compute.googleapis.com
+gcloud services enable networksecurity.googleapis.com
+gcloud services enable firewallinsights.googleapis.com</code></pre>
 
-   ```bash
-   export PROJECT_ID=YOUR_PROJECT_ID
-   export BILLING_ID=YOUR_BILLING_PROJECT_ID
+    <div class="section-title">Set environment variables for your deployment project and billing project:</div>
 
+    <pre><code>export PROJECT_ID=YOUR_PROJECT_ID
+export BILLING_ID=YOUR_BILLING_PROJECT_ID</code></pre>
 
-   ## Set environment variables for your deployment project and billing project.
+    <div class="section-title">Set environment variables for your organization ID, deployment region, zone, and naming prefix:</div>
 
-```bash
-export PROJECT_ID=YOUR_PROJECT_ID
-export BILLING_ID=YOUR_BILLING_PROJECT_ID
+    <pre><code>export ORG_ID=$(gcloud projects describe $PROJECT_ID --format=json | jq -r '.parent.id')
+export REGION=us-central1
+export ZONE=us-central1-a
+export PREFIX=panw</code></pre>
+
+    <div class="section-title">Select a deployment option. Both options deploy identical environments:</div>
+
+    <ul>
+        <li><strong>Option 1:</strong> Deploy using Terraform</li>
+        <p>All of the cloud resources required for the tutorial are deployed using a single Terraform plan.</p>
+        <li><strong>Option 2:</strong> Deploy using gcloud</li>
+        <p>Each cloud resource is deployed individually using <code>gcloud</code>.</p>
+    </ul>
+
+</body>
+</html>
+
 
