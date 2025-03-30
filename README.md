@@ -49,18 +49,25 @@ For more information, please see:
 
 ## 🔧 Setup Instructions
 
-### Step 1: Enable Required Services
+# Prepare for Deployment
 
+Enable the required APIs, retrieve the deployment files, and configure the environment variables.
+
+## Important
+
+This tutorial assumes you are using Cloud Shell to provision all resources.
+
+### Step 1: Open Google Cloud Shell
+![Cloud Shell](cloudshell.png)
+
+### Step 2: Enable the required APIs
 ```bash
 gcloud services enable compute.googleapis.com
 gcloud services enable networksecurity.googleapis.com
 gcloud services enable firewallinsights.googleapis.com
 
-### 🌱 Step 2: Set Environment Variables for Your Deployment
-
-Set up the environment variables for your **deployment project** and **billing project**:
+## Step 3: Set environment variables for your deployment project and billing project
 
 ```bash
 export PROJECT_ID=YOUR_PROJECT_ID
 export BILLING_ID=YOUR_BILLING_PROJECT_ID
-
