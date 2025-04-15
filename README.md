@@ -15,6 +15,11 @@ Deploy and prevent threats with **Google Cloud NGFW Enterprise**, a native Googl
 
 The service operates by creating Google-managed zonal firewall endpoints that utilize **packet interception technology** to seamlessly capture and inspect workload traffic for **deep packet analysis**.
 
+## 💻 Google Cloud NGFW Enterprise
+
+![image](https://github.com/user-attachments/assets/e202e86a-2fda-4f87-ac94-1430e0b6d365)
+
+
 ---
 
 ## 💻 Languages and Utilities Used
