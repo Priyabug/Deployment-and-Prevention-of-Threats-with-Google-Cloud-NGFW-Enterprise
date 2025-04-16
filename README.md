@@ -54,9 +54,9 @@ For more information, please see:
 - **Industry-leading detection breadth and efficacy**, built with Palo Alto Networks technologies.
 
 - **TLS Inspection** via integration with **Certificate Authority Service**. Alerts are surfaced in:
-  - UI  
-  - API  
-  - Cloud Logging
+     **UI** – User Interface  
+     **API** – Application Programming Interface  
+     **Cloud Logging** – A cloud-based service for collecting, storing, and analyzing log data from applications and infrastructure
 
 ## 🌍 Topology
 
