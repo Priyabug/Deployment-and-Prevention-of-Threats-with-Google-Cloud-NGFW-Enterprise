@@ -45,7 +45,7 @@ For more information, please see:
 
 ---
 
-# Benefits of Cloud NGFW Enterprise
+## Benefits of Cloud NGFW Enterprise
 
 - **Cloud-native**, easy and fast to deploy, with managed scaling for high performance and availability.
 
