@@ -1,4 +1,4 @@
-# 🚀 Deployment and Prevention of Threats with Google Cloud NGFW Enterprise
+# 🚀 Configuration of firewall policy rules to inspect traffic using IPS security profile in Google Cloud
 
 ## ✨ Description
 
