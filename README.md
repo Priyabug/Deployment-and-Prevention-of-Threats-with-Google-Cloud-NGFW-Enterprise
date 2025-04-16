@@ -45,6 +45,19 @@ For more information, please see:
 
 ---
 
+# Benefits of Cloud NGFW Enterprise
+
+- **Cloud-native**, easy and fast to deploy, with managed scaling for high performance and availability.
+
+- Supported via **firewall policies and tags**, providing flexible insertion, independent from routing.
+
+- **Industry-leading detection breadth and efficacy**, built with Palo Alto Networks technologies.
+
+- **TLS Inspection** via integration with **Certificate Authority Service**. Alerts are surfaced in:
+  - UI  
+  - API  
+  - Cloud Logging
+
 ## 🌍 Topology
 
  
